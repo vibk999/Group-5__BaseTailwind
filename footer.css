@@ -27,6 +27,7 @@
 .img_11 {
     animation-name: animte-arrow;
     animation-duration: 30s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes animte-arrow {
@@ -48,6 +49,7 @@
 .img_9 {
     animation-name: animte-arrow;
     animation-duration: 30s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes animte-arrow {
