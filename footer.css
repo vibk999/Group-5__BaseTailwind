@@ -24,3 +24,46 @@
         display: none;
     }
 }
+.img_11 {
+    animation-name: animte-arrow;
+    animation-duration: 30s;
+}
+
+@keyframes animte-arrow {
+
+
+    0% {
+     transform: rotate(360deg);
+    }
+
+    /* trạng thái kết thúc */
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.img_9 {
+    animation-name: animte-arrow;
+    animation-duration: 30s;
+}
+
+@keyframes animte-arrow {
+
+
+    0% {
+     transform: rotate(360deg);
+    }
+
+    /* trạng thái kết thúc */
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
