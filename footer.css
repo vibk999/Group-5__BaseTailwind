@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    background-color: #fff;
+    display: none;
+    flex-direction: column;
+}
+@media(max-width:800px) {
+    .hideOnMobile {
+        display: none;
+    }
+}
+@media(min-width:1024px) {
+    .hideMenu {
+        display: none;
+    }
+}
+.img_11 {
+    animation-name: animte-arrow;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animte-arrow {
+
+
+    0% {
+     transform: rotate(360deg);
+    }
+
+    /* trạng thái kết thúc */
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.img_9 {
+    animation-name: animte-arrow;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animte-arrow {
+
+
+    0% {
+     transform: rotate(360deg);
+    }
+
+    /* trạng thái kết thúc */
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
