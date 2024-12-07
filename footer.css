@@ -69,3 +69,123 @@
     }
 }
 
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+    body {
+        @apply dark:bg-darkBodyColor dark:text-textColor text-primaryColor;
+    }
+}
+
+
+@media screen and (max-width: 1508px) {
+
+
+    .banner_img .img_4, .img_5{
+        
+      width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 1508px) {
+
+
+    .banner_img .img_1, .img_2, .img_3 {
+  display: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1508px) {
+
+
+    .banner_text {
+        
+        width: 50%;
+        margin-left: 40px;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+
+
+    .banner {
+            width: 80%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+
+    .banner_text {
+            margin-left: 20px;
+            width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+
+    .banner_text_h1 {
+            font-size: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 1023px) {
+
+
+   .hide, .hide_1, .hide_2, #theme-toggle {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+
+    .banner_text_h1 {
+
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .about_us img {
+
+       display: none;
+       
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .about_us_text {
+        margin-top: 0px;
+        width: 100%;
+       font-size: 15px; 
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .about_us_text h1 {
+       font-size: 30px; 
+    }
+}
+
+
+
