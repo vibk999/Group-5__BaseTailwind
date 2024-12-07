@@ -22,6 +22,7 @@
     <!-- css -->
     <link rel="stylesheet" href="./footer.css">
     <link rel="stylesheet" href="./Vinh.css">
+    <link href="khoa.css" rel="stylesheet">
 
 </head>
 
@@ -146,22 +147,22 @@
             </div>
         </div>
         <div class=" about_us_top flex justify-center items-center py-20 px-20 ">
-           
-                <div class=" about_us mx-8 relative wow animate__ animate__fadeInLeft animated" data-wow-duration="5s"
-                    data-wow-delay="0.2s"
-                    style="visibility: visible; animation-duration: 5s; animation-delay: 0.2s; animation-name: fadeInLeft;">
-                    <img src="https://base-tailwind.preview.uideck.com/images/shape-05.svg"
-                        class="absolute z-10 top-5 -left-4" alt="">
-                    <img src="https://base-tailwind.preview.uideck.com/images/about-01.png">
-                    <img src="https://base-tailwind.preview.uideck.com/images/about-02.png" class="mt-10">
-                </div>
-                <div class=" about_us mr-20 wow animate__ animate__fadeInLeft animated" data-wow-duration="5s"
-                    data-wow-delay="0.2s"
-                    style="visibility: visible; animation-duration: 5s; animation-delay: 0.2s; animation-name: fadeInLeft;">
-                    <img src="https://base-tailwind.preview.uideck.com/images/shape-06.svg">
-                    <img src="https://base-tailwind.preview.uideck.com/images/about-03.png">
-                    <img src="https://base-tailwind.preview.uideck.com/images/shape-07.svg">
-                </div>
+
+            <div class=" about_us mx-8 relative wow animate__ animate__fadeInLeft animated" data-wow-duration="5s"
+                data-wow-delay="0.2s"
+                style="visibility: visible; animation-duration: 5s; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                <img src="https://base-tailwind.preview.uideck.com/images/shape-05.svg"
+                    class="absolute z-10 top-5 -left-4" alt="">
+                <img src="https://base-tailwind.preview.uideck.com/images/about-01.png">
+                <img src="https://base-tailwind.preview.uideck.com/images/about-02.png" class="mt-10">
+            </div>
+            <div class=" about_us mr-20 wow animate__ animate__fadeInLeft animated" data-wow-duration="5s"
+                data-wow-delay="0.2s"
+                style="visibility: visible; animation-duration: 5s; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                <img src="https://base-tailwind.preview.uideck.com/images/shape-06.svg">
+                <img src="https://base-tailwind.preview.uideck.com/images/about-03.png">
+                <img src="https://base-tailwind.preview.uideck.com/images/shape-07.svg">
+            </div>
 
             <div class=" about_us_text  mb-5 wow animate__ animate__fadeInRight animated" data-wow-duration="5s"
                 data-wow-delay="0.2s"
@@ -232,6 +233,371 @@
 
         </div>
     </main>
+
+
+    <!--///////////////////////////////////////////////////////// khoa///////////////////////////////////////////////////////////////// -->
+
+    <div x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }"
+        x-init="
+     darkMode = JSON.parse(localStorage.getItem('darkMode'));
+     $waflexh('darkMode', value => localStorage.setItem('darkMode', JSON.stringify(value)))"
+        :class="{'b eh': darkMode === true}">
+
+        <!-- ===== Services Start ===== -->
+        <section class="pb-7 lg:pb-12 xl:pb-16">
+            <!-- Section Title Start -->
+            <div>
+                <div class="animate_top mx-auto max-w-7xl rj px-4 md:px-8  xl:px-0">
+                    <h2 class="font-semibold text-3xl pr  kk wm on/5 gq/2 mx-auto mb-4 ">We Offer The Best Quality
+                        Service for You
+                    </h2>
+                    <p class="mx-auto on/5 wo/5 hq">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                        convallis
+                        tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.</p>
+                </div>
+
+
+            </div>
+            <!-- Section Title End -->
+
+            <div class="mx-auto max-w-7xl px-4 md:px-8 xl:px-20 mt-10 en">
+                <div class="grid  qf pn xo ng">
+                    <!-- Service Item -->
+                    <div class="animate_top rounded-lg py-12 px-8 xl:px-12 ml il am cn _m">
+                        <img src="https://base-tailwind.preview.uideck.com/images/icon-04.svg" alt="Icon" />
+                        <h4 class="font-medium text-2xl kk wm mt-11 mb-4">Crafted for Startups</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+                    </div>
+
+                    <!-- Service Item -->
+                    <div class="animate_top rounded-lg py-12 px-8 xl:px-12 ml il am cn _m">
+                        <img src="https://base-tailwind.preview.uideck.com/images/icon-05.svg" alt="Icon" />
+                        <h4 class="font-medium text-2xl kk wm mt-11 mb-4">High-quality Design</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+                    </div>
+
+                    <!-- Service Item -->
+                    <div class="animate_top rounded-lg py-12 px-8 xl:px-12  ml il am cn _m">
+                        <img src="https://base-tailwind.preview.uideck.com/images/icon-06.svg" alt="Icon" />
+                        <h4 class="font-medium text-2xl kk wm mt-11 mb-4">All Essential Sections</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+                    </div>
+
+                    <!-- Service Item -->
+                    <div class="animate_top rounded-lg py-12 px-8 xl:px-12 ml il am cn _m">
+                        <img src="https://base-tailwind.preview.uideck.com/images/icon-07.svg" alt="Icon" />
+                        <h4 class="font-medium text-2xl kk wm mt-11 mb-4">Speed Optimimax-w-7xld</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+                    </div>
+
+                    <!-- Service Item -->
+                    <div class="animate_top rounded-lg py-12 px-8 xl:px-12 ml il am cn _m">
+                        <img src="https://base-tailwind.preview.uideck.com/images/icon-05.svg" alt="Icon" />
+                        <h4 class="font-medium text-2xl kk wm mt-11 mb-4">Fully Customizable</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+                    </div>
+
+                    <!-- Service Item -->
+                    <div class="animate_top rounded-lg py-12 px-8 xl:px-12 ml il am cn _m">
+                        <img src="https://base-tailwind.preview.uideck.com/images/icon-06.svg" alt="Icon" />
+                        <h4 class="font-medium text-2xl kk wm mt-11 mb-4">Regular Updates</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Services End ===== -->
+
+        <!-- ===== Pricing Table Start ===== -->
+        <section x-data="setup()" class="i overflow-hidden fh rm ji gp xl:py-28">
+            <!-- Bg Shapes -->
+            <img src="https://base-tailwind.preview.uideck.com/images/shape-06.svg" alt="Shape"
+                class="absolute top-[5%] left-[10%]" />
+            <img src="https://base-tailwind.preview.uideck.com/images/shape-03.svg" alt="Shape"
+                class="absolute top-[25%] right-[20%]" />
+            <img src="https://base-tailwind.preview.uideck.com/images/shape-07.svg" alt="Shape"
+                class="absolute bottom-[10%] right-[5%] w-24" />
+            <img src="https://base-tailwind.preview.uideck.com/images/shape-12.svg" alt="Shape"
+                class="absolute bottom-0 left-0" />
+            <img src="https://base-tailwind.preview.uideck.com/images/shape-13.svg" alt="Shape"
+                class="absolute top-0 right-0" />
+
+            <!-- Section Title Start -->
+            <div>
+                <div class="animate_top mx-auto max-w-7xl rj px-4 md:px-8 xl:px-0">
+                    <h2 class="font-semibold text-3xl  pr kk wm on/5 gq/2 mx-auto mb-4">We Offer Great Affordable
+                        Premium Prices.
+                    </h2>
+                    <p class="mx-auto on/5 wo/5 hq">It is a long established fact that a reader will be distracted by
+                        the
+                        readable content of a page when loopx-4ng at its layout. The point of using.</p>
+                </div>
+            </div>
+            <!-- Section Title End -->
+
+            <!-- Pricing swiflexher -->
+            <div class="flex items-center xf jb og">
+                <span class="font-medium kk wm">Bill Monthly</span>
+                <button class="i rg gm" x-cloak
+                    @click="billPlan == 'monthly' ? billPlan = 'annually' : billPlan = 'monthly'">
+                    <div class="fe id bl gh rg xk outline-none"></div>
+                    <div class="h vc items-center xf ge jd cl jl ml mf hh rg yk ea fa"
+                        :class="{ 'ff': billPlan == 'monthly', 'gf': billPlan == 'annually' }"></div>
+                </button>
+                <span class="font-medium kk wm">Bill Annually</span>
+            </div>
+
+            <!-- Pricing Table -->
+            <div class="mx-auto max-w-7xl i va px-4 md:px-8 xl:px-20 mt-14 ">
+                <div class="grid qf pn xo jg">
+                    <template x-for="(plan, i) in plans" x-key="i">
+                        <!-- Pricing Item -->
+                        <div class="animate_top rj rounded-lg hh sm vk xm hi nj oj">
+                            <h4 x-text="plan.name" class="wj kk wm fb"></h4>
+
+                            <div class="flex items-center xf kg cc">
+                                <h2 :class="plan.name == 'Basic' ? 'text-green-500' : ''"
+                                    x-text="`$${billPlan == 'monthly' ? plan.price.monthly : plan.price.annually}`"
+                                    class="font-semibold _j kk wm"></h2>
+                                <span x-text="billPlan == 'monthly' ? '/per month' : '/per year'"
+                                    class="sc ak kk wm"></span>
+                            </div>
+
+                            <p class="ur dc">No credit card required</p>
+
+                            <!-- Button -->
+                            <a href="#" class="font-medium rg lk ml il gi ri"
+                                :class="plan.name == 'Growth Plan' ? 'gh sl' : 'mh tl'">
+                                Try for free
+                            </a>
+
+                            <!-- Features -->
+                            <ul class="flex sf  bg ob fb">
+                                <template x-for="(feature, i) in plan.features" x-key="i">
+                                    <li x-text="feature"></li>
+                                </template>
+                            </ul>
+
+                            <p class="kk wm">7-day free trial</p>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Pricing Table End ===== -->
+
+        <!-- ===== Projects Start ===== -->
+        <section class="overflow-hidden pj vp mr oj wp nr">
+            <!-- Section Title Start -->
+            <div>
+                <div class="animate_top mx-auto max-w-7xl rj px-4 md:px-8 xl:px-0 ">
+                    <h2 class="font-semibold  text-3xl pr kk wm on/5 gq/2 mx-auto mb-4">We Offer Great Affordable
+                        Premium Prices.
+                    </h2>
+                    <p class="mx-auto on/5 wo/5 hq">It is a long established fact that a reader will be distracted by
+                        the
+                        readable content of a page when loopx-4ng at its layout. The point of using.</p>
+                </div>
+
+
+            </div>
+            <!-- Section Title End -->
+
+            <div class="mx-auto max-w-7xl px-4 md:px-8 2xl:ud-px-0 jb" x-data="{filterTab: 1}">
+                <!-- Porject Tab -->
+                <div class="projects-tab _e mx-auto flex uf items-center xf cg rg hh rm vk xm si ti fc">
+                    <button data-filter="*" @click="filterTab = 1" :class="{ 'gh lk' : filterTab === 1 }"
+                        class="project-tab-btn font-medium rg ml il vi mi">
+                        All
+                    </button>
+                    <button data-filter=".branding" @click="filterTab = 2" :class="{ 'gh lk' : filterTab === 2 }"
+                        class="project-tab-btn font-medium rg ml il vi mi">
+                        Branding Strategy
+                    </button>
+                    <button data-filter=".digital" @click="filterTab = 3" :class="{ 'gh lk' : filterTab === 3 }"
+                        class="project-tab-btn font-medium rg ml il vi mi">
+                        Digital Experiences
+                    </button>
+                    <button data-filter=".ecommerce" @click="filterTab = 4" :class="{ 'gh lk' : filterTab === 4 }"
+                        class="project-tab-btn font-medium rg ml il vi mi">
+                        Ecommerce
+                    </button>
+                </div>
+
+                <!-- Projects item wrapper -->
+                <div class="projects-wrapper flex -ud-mx-5">
+                    <div class="project-sizer"></div>
+                    <!-- Project Item -->
+                    <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
+                        <div class="c i overflow-hidden rounded-lg z-1">
+                            <img src="https://base-tailwind.preview.uideck.com/images/project-01.png" alt="Project" />
+
+                            <div
+                                class="h s r df nl duration-700 im flex sf items-center xf vd yc rounded-lg al hh/20 z-10">
+                                <h4 class="font-medium tj kk hc">Photo Retouching</h4>
+                                <p>Branded Ecommerce</p>
+                                <a class="c flex items-center xf ie ld rg _g dh ml il ph jm km jc" href="#">
+                                    <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Item -->
+                    <div class="project-item wi fb vd jn/2 to/3 digital">
+                        <div class="c i overflow-hidden rounded-lg z-1">
+                            <img src="https://base-tailwind.preview.uideck.com/images/project-02.png" alt="Project" />
+
+                            <div
+                                class="h s r df nl duration-700 im flex sf items-center xf vd yc rounded-lg al hh/20 z-10">
+                                <h4 class="font-medium tj kk hc">Photo Retouching</h4>
+                                <p>Branded Ecommerce</p>
+                                <a class="c flex items-center xf ie ld rg _g dh ml il ph jm km jc" href="#">
+                                    <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Item -->
+                    <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
+                        <div class="c i overflow-hidden rounded-lg z-1">
+                            <img src="https://base-tailwind.preview.uideck.com/images/project-04.png" alt="Project" />
+
+                            <div
+                                class="h s r df nl duration-700 im flex sf items-center xf vd yc rounded-lg al hh/20 z-10">
+                                <h4 class="font-medium tj kk hc">Photo Retouching</h4>
+                                <p>Branded Ecommerce</p>
+                                <a class="c flex items-center xf ie ld rg _g dh ml il ph jm km jc" href="#">
+                                    <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Item -->
+                    <div class="project-item wi fb vd vo/3 digital ecommerce">
+                        <div class="c i overflow-hidden  rounded-lg  z-1">
+                            <img src="https://base-tailwind.preview.uideck.com/images/project-03.png" alt="Project" />
+
+                            <div
+                                class="h s r df nl duration-700  im flex sf items-center xf vd yc rounded-lg al hh/20 z-10">
+                                <h4 class="font-medium  tj kk hc">Photo Retouching</h4>
+                                <p>Branded Ecommerce</p>
+                                <a class="c flex  items-center xf ie ld rg _g dh ml il ph jm km jc" href="#">
+                                    <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Projects End ===== -->
+
+        <!-- ===== Testimonials Start ===== -->
+        <section class="hj rp hr">
+            <!-- Section Title Start -->
+            <div>
+                <div class="animate_top mx-auto max-w-7xl rj px-4 md:px-8 xl:px-0">
+                    <h2 class="font-semibold text-3xl pr kk wm on/5 gq/2 mx-auto mb-4">Client’s Testimonials
+                    </h2>
+                    <p class="mx-auto on/5 wo/5 hq">It is a long established fact that a reader will be distracted by
+                        the
+                        readable content of a page when loopx-4ng at its layout. The point of using.</p>
+                </div>
+            </div>
+            <!-- Section Title End -->
+
+            <div class="mx-auto max-w-7xl px-4 md:px-8 ar">
+                <div class="animate_top jb cq">
+                    <!-- Slider main container -->
+                    <div class="swiper testimonial-01">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="i hh rm rounded-lg vk xm bi qj">
+                                    <!-- Border Shape -->
+                                    <span class="rc je md/2 gh xg h q r"></span>
+                                    <span class="rc je md/2 mh yg h q p"></span>
+
+                                    <div class="flex sf rn tn un zf dp">
+                                        <img class="bf"
+                                            src="https://base-tailwind.preview.uideck.com/images/testimonial.png"
+                                            alt="User" />
+
+                                        <div>
+                                            <img src="https://base-tailwind.preview.uideck.com/images/icon-quote.svg"
+                                                alt="Quote" />
+                                            <p class="font-medium ik xj _p kc fb">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor
+                                                diam,
+                                                feugiat quis enim sed, ullamcorper semper ligula. Mauris consequat
+                                                justo
+                                                volutpat.
+                                            </p>
+
+                                            <div class="flex yf vf">
+                                                <div>
+                                                    <span class="rc font-medium xj kk wm zb">Devid Smith</span>
+                                                    <span class="rc">Founter @democompany</span>
+                                                </div>
+
+                                                <img class="rk"
+                                                    src="https://base-tailwind.preview.uideck.com/images/brand-light-02.svg"
+                                                    alt="Brand" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need navigation -->
+                        <div class="flex items-center xf fg jb">
+                            <div
+                                class="swiper-button-prev c flex items-center xf ie ld rg _g dh pf ml vr hh rm tl zm rl ym">
+                                <svg class="th lm" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3.52366 7.83336L7.99366 12.3034L6.81533 13.4817L0.333663 7.00002L6.81533 0.518357L7.99366 1.69669L3.52366 6.16669L13.667 6.16669L13.667 7.83336L3.52366 7.83336Z"
+                                        fill="" />
+                                </svg>
+                            </div>
+                            <div
+                                class="swiper-button-next c flex items-center xf ie ld rg _g dh pf ml vr hh rm tl zm rl ym">
+                                <svg class="th lm" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z"
+                                        fill="" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Testimonials End ===== -->
+    </div>
+
+    <!--///////////////////////////////////////////////////// khoa///////////////////////////////////////////////////////////////// -->
 
 
 
@@ -840,7 +1206,47 @@
         </svg>
     </button>
 
+    <!-- //  Pricing Table -->
+    <script>
 
+        const setup = () => {
+            return {
+                isNavOpen: false,
+
+                billPlan: 'monthly',
+
+                plans: [
+                    {
+                        name: 'Starter',
+                        price: {
+                            monthly: 29,
+                            annually: 29 * 12 - 199,
+                        },
+                        features: ['400 GB Storaget', 'Unlimited Photos & Videos', 'Exclusive Support'],
+                    },
+                    {
+                        name: 'Growth Plan',
+                        price: {
+                            monthly: 59,
+                            annually: 59 * 12 - 100,
+                        },
+                        features: ['400 GB Storaget', 'Unlimited Photos & Videos', 'Exclusive Support'],
+                    },
+                    {
+                        name: 'Business',
+                        price: {
+                            monthly: 139,
+                            annually: 139 * 12 - 100,
+                        },
+                        features: ['400 GB Storaget', 'Unlimited Photos & Videos', 'Exclusive Support'],
+                    },
+                ],
+            };
+        };
+    </script>
+    <!-- //  Pricing Table END -->
+
+    <script defer src="js/bundle.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/QINQ/g=="
