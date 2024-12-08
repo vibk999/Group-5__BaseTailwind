@@ -286,9 +286,9 @@
   max-width: -moz-fit-content;
   max-width: fit-content;
 }
-.uf {
+/* .uf {
   flex-wrap: wrap;
-}
+} */
 .cg {
   gap: 1.25rem;
 }
